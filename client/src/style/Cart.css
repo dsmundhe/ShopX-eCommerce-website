@@ -1,0 +1,45 @@
+ 
+  .note{
+    text-align: center;
+    margin-top: 20px;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .product .removecart{
+    background-color: rgb(12, 182, 255);
+  }
+  .container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #f5f5f5; /* Light background for contrast */
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #28a745; /* Green background color */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarges the button */
+}
+
+button:active {
+    background-color: #1e7e34; /* Even darker green when clicked */
+    transform: scale(1); /* Reverts to original size when clicked */
+}
+.product1{
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+}

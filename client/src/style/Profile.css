@@ -1,0 +1,89 @@
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  background-color: #f0f0f0;
+  padding: 40px; /* Increased padding for a more spacious look */
+  margin-top: 20px;
+}
+
+.profile-info {
+  text-align: center;
+  margin-bottom: 40px; /* Increased margin for more space */
+  padding: 50px;
+  border: 1px solid rgb(157, 147, 147);
+  border-radius: 10px;
+}
+
+.profile-info h1 {
+  font-size: 3rem; /* Larger font size for the header */
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.profile-info p {
+  font-size: 1.5rem; /* Larger font size for the text */
+  color: #555;
+  margin: 10px 0;
+}
+
+.logout-button {
+  padding: 15px 30px; /* Larger button size */
+  font-size: 1.2rem; /* Larger font size for the button text */
+  color: white;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .profile-page {
+    margin-top: 60px;
+  }
+  .profile-info h1 {
+    font-size: 2.5rem;
+  }
+
+  .profile-info p {
+    font-size: 1.2rem;
+  }
+
+  .logout-button {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-info h1 {
+    font-size: 2rem;
+  }
+
+  .profile-info p {
+    font-size: 1rem;
+  }
+
+  .logout-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}
+.profile1 {
+  font-size: 40px;
+}
+.btns button {
+  padding: 10px 15px;
+  font-size: 17px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}

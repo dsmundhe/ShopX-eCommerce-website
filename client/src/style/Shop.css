@@ -1,0 +1,197 @@
+.offer-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  /* Header Section */
+  .offer-header {
+    background-image: url('https://i.pinimg.com/originals/62/43/7e/62437e74794eea05fa95143e6da9b64b.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333; /* Dark text for contrast */
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .offer-banner h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Light shadow for readability */
+  }
+  
+  .offer-banner p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .shop-now-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #333; /* Dark text for contrast */
+    background-color: #ffffff; /* White background */
+    border: 2px solid #333; /* Dark border for definition */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #f4f4f4; /* Slightly darker white on hover */
+    color: #ff4c29; /* Highlight color */
+  }
+  
+  /* Featured Offers Section */
+  .featured-offers {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333; /* Dark text for visibility */
+  }
+  
+  .offers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .offer-item {
+    background-color: #f9f9f9; /* Light grey for subtle contrast */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .offer-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .offer-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .offer-details {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .offer-details h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #f5370c; /* Retained highlight color */
+  }
+  
+  .offer-description {
+    font-size: 1rem;
+    color: #555; /* Dark text for readability */
+    margin-bottom: 15px;
+  }
+  
+  .buy-now-btn {
+    padding: 8px 16px;
+    font-size: 1rem;
+    color: #333; /* Dark text for contrast */
+    background-color: #ffffff; /* White background */
+    border: 2px solid #333; /* Dark border */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .buy-now-btn:hover {
+    background-color: #9b9b9b; /* Slight hover effect */
+    color: #000000; /* Highlight color */
+    background: transparent;
+  }
+  
+  /* Service Highlights Section */
+  .service-highlights {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .service-card {
+    background-color: #f9f9f9; /* Light grey background */
+    color: #333; /* Dark text */
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service-card h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 0.9rem;
+  }
+  .service-card .icon{
+    font-size: 40px;
+    color: #f5370c;
+  }
+  /* Highlighted Products Section */
+  .highlighted-products {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .carousel-item {
+    background-color: #f9f9f9; /* Light grey for contrast */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .carousel-details {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .carousel-details h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #ff5733; /* Highlight color */
+  }
+  
+  .carousel-details p {
+    font-size: 1rem;
+    color: #555; /* Dark text */
+    margin-bottom: 15px;
+  }
+  
+ h1 span{
+  color: #f5370c;
+ }
+   

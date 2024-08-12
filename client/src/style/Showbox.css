@@ -1,0 +1,110 @@
+/* Base styling for payment page */
+.payment-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Increased gap for bigger cards */
+    align-items: center;
+}
+
+/* Styling for individual product cards */
+.product-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px; /* Increased size */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.imgbox, .product-info {
+    flex: 1;
+}
+
+.imgbox {
+    max-width: 1000px; /* Bigger image size */
+    margin-right: 20px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-title {
+    font-size: 1.5rem; /* Larger title */
+    margin: 10px 0;
+}
+
+.product-description {
+    font-size: 1.2rem; /* Larger description */
+    color: #666;
+    margin-bottom: 15px;
+}
+.product-card .price{
+    color: #ff2f00;
+}
+
+.buy-now-btn, .remove-cart-btn {
+    padding: 10px 20px; /* Larger buttons */
+    font-size: 1.2rem; /* Bigger font size */
+    color: #fff;
+    background-color: #ff5733;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px 0;
+}
+
+.remove-cart-btn {
+    background-color: #d9534f;
+}
+
+.buy-now-btn:hover {
+    background-color: #e04e2d;
+}
+
+.remove-cart-btn:hover {
+    background-color: #c9302c;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .product-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .imgbox, .product-info {
+        margin: 0;
+    }
+
+    .imgbox {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .buy-now-btn, .remove-cart-btn {
+        width: 100%;
+    }
+}
