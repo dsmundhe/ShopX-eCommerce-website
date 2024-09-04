@@ -93,7 +93,7 @@ const Contact = () => {
                     <div className="footer-section contact">
                         <h2>Contact Us</h2>
                         <p>
-                            <i className="fas fa-map-marker-alt"></i> Nagput Maharashtra ,
+                            <i className="fas fa-map-marker-alt"></i> Nagpur Maharashtra ,
                             India
                         </p>
                         <p>
